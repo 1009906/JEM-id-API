@@ -1,0 +1,33 @@
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\appsettings.Development.json
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\appsettings.json
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\JEM-id API.exe
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\JEM-id API.deps.json
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\JEM-id API.runtimeconfig.json
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\JEM-id API.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\JEM-id API.pdb
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\obj\Debug\net7.0\JEM-id API.csproj.AssemblyReference.cache
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\obj\Debug\net7.0\JEM-id API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\obj\Debug\net7.0\JEM-id API.AssemblyInfoInputs.cache
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\obj\Debug\net7.0\JEM-id API.AssemblyInfo.cs
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\obj\Debug\net7.0\JEM-id API.csproj.CoreCompileInputs.cache
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\obj\Debug\net7.0\JEM-id API.MvcApplicationPartsAssemblyInfo.cs
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\obj\Debug\net7.0\JEM-id API.MvcApplicationPartsAssemblyInfo.cache
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\obj\Debug\net7.0\staticwebassets\msbuild.JEM-id API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\obj\Debug\net7.0\staticwebassets\msbuild.build.JEM-id API.props
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.JEM-id API.props
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.JEM-id API.props
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\obj\Debug\net7.0\staticwebassets.build.json
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\obj\Debug\net7.0\staticwebassets.development.json
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\obj\Debug\net7.0\scopedcss\bundle\JEM-id API.styles.css
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\obj\Debug\net7.0\JEM-id API.csproj.CopyComplete
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\obj\Debug\net7.0\JEM-id API.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\obj\Debug\net7.0\refint\JEM-id API.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\obj\Debug\net7.0\JEM-id API.pdb
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\obj\Debug\net7.0\JEM-id API.genruntimeconfig.cache
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\obj\Debug\net7.0\ref\JEM-id API.dll
