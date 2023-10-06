@@ -1,4 +1,7 @@
-﻿namespace JEM_id_API.Models
+﻿using JEM_id_API.Enums;
+using System.ComponentModel.DataAnnotations;
+
+namespace JEM_id_API.Models
 {
     public class ArticleDto
     {
@@ -11,11 +14,22 @@
             - Een kleur (optioneel)
             - Een productgroep (verplicht)
         */
+        [Key]
+        [Required]
         public int Id { get; set; } //Misschien guid?
+
+        [Required]
         public string Name { get; set; }
-        public int PotSize { get; set; } //Double?
-        public int PlantHeight { get; set; } //Double?
-        public string Color { get; set; } //Enum waardes?
+
+        [Required]
+        public double PotSize { get; set; }
+
+        [Required]
+        public double PlantHeight { get; set; }
+
+        public ColorEnum Color { get; set; } //Enum waardes?
+
+        [Required]
         public string ProductGroup { get; set; } //Enum waardes?
     }
 }

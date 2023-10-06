@@ -8,5 +8,10 @@ namespace JEM_id_API.DatabaseContext
         public DatabaseContext(DbContextOptions<DatabaseContext> options) : base(options) { }
 
         public DbSet<ArticleDto> Articles { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<ArticleDto>().HasKey(pk => pk.Id);
+        }
     }
 }
