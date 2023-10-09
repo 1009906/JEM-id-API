@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OHyqmftsdQW1oukP8lKnkhS5E0MYI+2kS93HzHOjQ5RSsrcXof6z2PY9CIim3GVfHLDnXym5Be2gZAI2cgyLpA==",
+  "dgSpecHash": "Oos2e0g3ZTnHrDSFRk6U6wp63QEeysFyPsw8k7shSrVgLiIM4zK5NIgwx4KhEV+R0F+2Up10qq6VBUOOxHVdIQ==",
   "success": true,
   "projectFilePath": "C:\\Bram\\Prutsen\\Jem-id\\JEM-id API\\JEM-id API\\JEM-id API.csproj",
   "expectedPackageFiles": [
@@ -18,6 +18,7 @@
     "C:\\Users\\freer\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.11\\microsoft.entityframeworkcore.design.7.0.11.nupkg.sha512",
     "C:\\Users\\freer\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.11\\microsoft.entityframeworkcore.relational.7.0.11.nupkg.sha512",
     "C:\\Users\\freer\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.11\\microsoft.entityframeworkcore.sqlserver.7.0.11.nupkg.sha512",
+    "C:\\Users\\freer\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.11\\microsoft.entityframeworkcore.tools.7.0.11.nupkg.sha512",
     "C:\\Users\\freer\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\freer\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\freer\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",

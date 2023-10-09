@@ -1,4 +1,5 @@
 ﻿using JEM_id_API.Enums;
+using JEM_id_API.Validators;
 using System.ComponentModel.DataAnnotations;
 
 namespace JEM_id_API.Models
@@ -14,11 +15,15 @@ namespace JEM_id_API.Models
             - Een kleur (optioneel)
             - Een productgroep (verplicht)
         */
-        [Key]
         [Required]
-        public int Id { get; set; } //Misschien guid?
+        //[StringLength(13, ErrorMessage = "The {0} value cannot exceed {1} characters. ")]  //Maxlenght gebruiken?
+        [MaxLength(13, ErrorMessage = "The {0} value cannot exceed {1} characters.")]
+        [IsUnique]
+        public string Code { get; set; } //Misschien guid?
 
         [Required]
+        //[StringLength(50, ErrorMessage = "The {0} value cannot exceed {1} characters. ")] //Maxlenght gebruiken?
+        [MaxLength(50, ErrorMessage = "The {0} value cannot exceed {1} characters.")]
         public string Name { get; set; }
 
         [Required]
@@ -27,9 +32,9 @@ namespace JEM_id_API.Models
         [Required]
         public double PlantHeight { get; set; }
 
-        public ColorEnum Color { get; set; } //Enum waardes?
+        public ColorEnum? Color { get; set; }
 
         [Required]
-        public string ProductGroup { get; set; } //Enum waardes?
+        public ProductGroupsEnum ProductGroup { get; set; }
     }
 }

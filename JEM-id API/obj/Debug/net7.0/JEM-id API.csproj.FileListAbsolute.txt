@@ -31,3 +31,46 @@ C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\obj\Debug\net7.0\refint\JEM-id API.
 C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\obj\Debug\net7.0\JEM-id API.pdb
 C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\obj\Debug\net7.0\JEM-id API.genruntimeconfig.cache
 C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\obj\Debug\net7.0\ref\JEM-id API.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\Azure.Core.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\Azure.Identity.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\Humanizer.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\System.CodeDom.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Bram\Prutsen\Jem-id\JEM-id API\JEM-id API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll

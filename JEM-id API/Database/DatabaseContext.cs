@@ -1,7 +1,7 @@
 ﻿using JEM_id_API.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace JEM_id_API.DatabaseContext
+namespace JEM_id_API.Database
 {
     public class DatabaseContext : DbContext
     {
@@ -11,7 +11,7 @@ namespace JEM_id_API.DatabaseContext
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<ArticleDto>().HasKey(pk => pk.Id);
+            modelBuilder.Entity<ArticleDto>().HasKey(article => article.Code);
         }
     }
 }

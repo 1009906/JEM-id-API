@@ -1,0 +1,25 @@
+﻿using JEM_id_API.Enums;
+using JEM_id_API.Validators;
+using System.ComponentModel.DataAnnotations;
+
+namespace JEM_id_API.Models
+{
+    public class CreateArticleDto
+    {
+        [Required]
+        [MaxLength(50, ErrorMessage = "The {0} value cannot exceed {1} characters.")]
+        //[StringLength(50, ErrorMessage = "The {0} value cannot exceed {1} characters. ")]
+        public string Name { get; set; }
+
+        [Required]
+        public double PotSize { get; set; }
+
+        [Required]
+        public double PlantHeight { get; set; }
+
+        public ColorEnum? Color { get; set; }
+
+        [Required]
+        public ProductGroupsEnum ProductGroup { get; set; }
+    }
+}

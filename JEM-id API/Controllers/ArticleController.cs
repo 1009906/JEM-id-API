@@ -1,4 +1,7 @@
-﻿using JEM_id_API.Models;
+﻿using JEM_id_API.Database;
+using JEM_id_API.Enums;
+using JEM_id_API.Interfaces;
+using JEM_id_API.Models;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -9,28 +12,38 @@ namespace JEM_id_API.Controllers
     [ApiController]
     public class ArticleController : ControllerBase
     {
-        public ArticleController() { }
-
-        [HttpGet("GetNameTest")]
-        public string GetNameTest()
+        private readonly IArticleService _articleService;
+        public ArticleController(IArticleService articleService)
         {
-            return "GetNameTest";
+            _articleService = articleService;
         }
 
-        [HttpGet("GetArticles")]
-        public IEnumerable<ArticleDto> GetArticles()
+        [HttpGet("GetAll")]
+        public List<ArticleDto> GetAll()
         {
-            return Enumerable.Range(1, 5).Select(index => new ArticleDto
+            return _articleService.GetAll();
+        }
+
+        [HttpPost("Create")]
+        public IActionResult CreateArticle([FromForm] CreateArticleDto articleDto)
+        {
+            if (!ModelState.IsValid || articleDto == null)
             {
-                Id = index,
-                Name = index.ToString(),
-                PlantHeight = index,
-                PotSize = index,
-                Color = $"Color {index}",
-                ProductGroup = $"Productgroup {index}"
-            })
-            .ToArray();
+                return BadRequest("Article is invalid.");
+            }
+            var article = _articleService.CreateArticle(articleDto);
+            return Ok(article);
         }
 
+        [HttpDelete("Delete")]
+        public IActionResult DeleteArticle(string code) 
+        {
+            var article = _articleService.DeleteArticle(code);
+            if (article == null)
+            {
+                return NotFound("Article cannot be found.");
+            }
+            return Ok(article);
+        }
     }
 }

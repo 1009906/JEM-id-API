@@ -1,4 +1,7 @@
-using JEM_id_API.DatabaseContext;
+using JEM_id_API.Database;
+using JEM_id_API.Interfaces;
+using JEM_id_API.Repositories;
+using JEM_id_API.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +17,10 @@ builder.Services.AddDbContext<DatabaseContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
+//Dependency Injection
+builder.Services.AddTransient<IArticleService, ArticleService>();
+builder.Services.AddTransient<IArticleRepository, ArticleRepository>();
 
 var app = builder.Build();
 
