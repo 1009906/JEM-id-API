@@ -30,6 +30,24 @@ namespace JEM_id_API.Repositories
             return article;
         }
 
+        public ArticleDto? UpdateArticle(ArticleDto article)
+        {
+            var articleToUpdate = GetByCode(article.Code);
+            if (articleToUpdate != null)
+            {
+                articleToUpdate.Code = article.Code;
+                articleToUpdate.Name = article.Name;
+                articleToUpdate.PotSize = article.PotSize;
+                articleToUpdate.PlantHeight = article.PlantHeight;
+                articleToUpdate.Color = article.Color;
+                articleToUpdate.ProductGroup = article.ProductGroup;
+
+                _dbContext.Update(articleToUpdate);
+                _dbContext.SaveChanges();
+            }
+            return articleToUpdate;
+        }
+
         public ArticleDto? DeleteArticle(string code)
         {
             var article = GetByCode(code);

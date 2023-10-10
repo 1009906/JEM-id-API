@@ -16,15 +16,13 @@ namespace JEM_id_API.Models
             - Een productgroep (verplicht)
         */
         [Required]
-        //[StringLength(13, ErrorMessage = "The {0} value cannot exceed {1} characters. ")]  //Maxlenght gebruiken?
         [MaxLength(13, ErrorMessage = "The {0} value cannot exceed {1} characters.")]
-        [IsUnique]
-        public string Code { get; set; } //Misschien guid?
+        //[IsUnique]
+        public string Code { get; set; } = string.Empty;
 
         [Required]
-        //[StringLength(50, ErrorMessage = "The {0} value cannot exceed {1} characters. ")] //Maxlenght gebruiken?
         [MaxLength(50, ErrorMessage = "The {0} value cannot exceed {1} characters.")]
-        public string Name { get; set; }
+        public string Name { get; set; } = string.Empty;
 
         [Required]
         public double PotSize { get; set; }

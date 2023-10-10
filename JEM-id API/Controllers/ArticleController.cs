@@ -1,10 +1,7 @@
-﻿using JEM_id_API.Database;
-using JEM_id_API.Enums;
+﻿using JEM_id_API.Enums;
 using JEM_id_API.Interfaces;
 using JEM_id_API.Models;
 using Microsoft.AspNetCore.Mvc;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace JEM_id_API.Controllers
 {
@@ -24,6 +21,26 @@ namespace JEM_id_API.Controllers
             return _articleService.GetAll();
         }
 
+        [HttpGet("GetByFilter")]
+        public IActionResult GetByFilter(string? name, double? fromPotSize, double? toPotSize, ColorEnum? color, ProductGroupsEnum? productGroup)
+        {
+            if ((fromPotSize == null && toPotSize == null) || (fromPotSize <= toPotSize))
+            {
+                var filter = new ArticleFilterDto()
+                {
+                    Name = name,
+                    FromPotSize = fromPotSize,
+                    ToPotSize = toPotSize,
+                    Color = color,
+                    ProductGroup = productGroup
+                };
+
+                var articles = _articleService.GetByFilter(filter);
+                return Ok(articles);
+            }
+            return BadRequest("Invalid range of potsize.");
+        }
+
         [HttpPost("Create")]
         public IActionResult CreateArticle([FromForm] CreateArticleDto articleDto)
         {
@@ -32,6 +49,22 @@ namespace JEM_id_API.Controllers
                 return BadRequest("Article is invalid.");
             }
             var article = _articleService.CreateArticle(articleDto);
+            return Ok(article);
+        }
+
+        [HttpPut("Update")]
+        public IActionResult UpdateArticle([FromForm] ArticleDto articleDto)
+        {
+            if (!ModelState.IsValid || articleDto == null)
+            {
+                return BadRequest("Article is invalid.");
+            }
+
+            var article = _articleService.UpdateArticle(articleDto);
+            if (article == null)
+            {
+                return NotFound("Article cannot be found.");
+            }
             return Ok(article);
         }
 

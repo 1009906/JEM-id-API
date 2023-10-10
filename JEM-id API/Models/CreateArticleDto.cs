@@ -1,5 +1,4 @@
 ﻿using JEM_id_API.Enums;
-using JEM_id_API.Validators;
 using System.ComponentModel.DataAnnotations;
 
 namespace JEM_id_API.Models
@@ -8,8 +7,7 @@ namespace JEM_id_API.Models
     {
         [Required]
         [MaxLength(50, ErrorMessage = "The {0} value cannot exceed {1} characters.")]
-        //[StringLength(50, ErrorMessage = "The {0} value cannot exceed {1} characters. ")]
-        public string Name { get; set; }
+        public string Name { get; set; } = string.Empty;
 
         [Required]
         public double PotSize { get; set; }
