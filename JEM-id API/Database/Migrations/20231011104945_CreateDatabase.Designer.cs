@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace JEM_id_API.Database.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20231009145129_UpdateArticleModelColor")]
-    partial class UpdateArticleModelColor
+    [Migration("20231011104945_CreateDatabase")]
+    partial class CreateDatabase
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

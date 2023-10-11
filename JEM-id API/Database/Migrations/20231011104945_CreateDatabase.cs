@@ -18,7 +18,7 @@ namespace JEM_id_API.Database.Migrations
                     Name = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     PotSize = table.Column<double>(type: "float", nullable: false),
                     PlantHeight = table.Column<double>(type: "float", nullable: false),
-                    Color = table.Column<int>(type: "int", nullable: false),
+                    Color = table.Column<int>(type: "int", nullable: true),
                     ProductGroup = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>

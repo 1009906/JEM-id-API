@@ -58,6 +58,5 @@ namespace JEM_id_API.Repositories
             }
             return article;
         }
-
     }
 }
