@@ -1,13 +1,13 @@
 # JEM-id-API
 
 Lokaal draaien van de api:
-Stap 1: Download de code vanaf GitHub. Onder de groene knop "Code" -> "Download ZIP"
-Stap 2: Maak lokaal een lege SQL database aan.
-Stap 3: Kopieer de connectiestring naar de database en zet deze in het appsettings.Development.json bestand (Dit is voor lokaal draaien, als het niet lokaal is, zet de connectie string dan in appsettings.json)
-Stap 4: Open de code in Visual Studio
-Stap 5: Via de "Package Manager Console" kan de database geupdate worden. Typ in: 'Update-Database' (zonder de quotes) en druk op enter.
-De database wordt nu geupdate en dit is ook in de console te zien.
-Stap 6: Start de applicatie, een venster in de browser opent.
+* Stap 1: Download de code vanaf GitHub. Onder de groene knop "Code" -> "Download ZIP"
+* Stap 2: Maak lokaal een lege SQL database aan.
+* Stap 3: Kopieer de connectiestring naar de database en zet deze in het appsettings.Development.json bestand (Dit is voor lokaal draaien, als het niet lokaal is, zet de connectie string dan in appsettings.json)
+* Stap 4: Open de code in Visual Studio
+* Stap 5: Via de "Package Manager Console" kan de database geupdate worden. Typ in: 'Update-Database' (zonder de quotes) en druk op enter.
+* De database wordt nu geupdate en dit is ook in de console te zien.
+* Stap 6: Start de applicatie, een venster in de browser opent.
 
 Voorbeeld van een artikel in de database:
 {
